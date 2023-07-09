@@ -1,4 +1,4 @@
-package com.autoria.cadastroLegal.usuario.entity;
+package com.autoria.cadastroLegal.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -11,17 +11,20 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "tb_usuario")
-public class Usuario {
+@Table(name = "tb_user")
+public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "nome")
-    private String nome;
+    @Column(name = "name")
+    private String name;
 
     @Column(name = "cpf")
     private String cpf;
+
+    @Column(name = "status")
+    private boolean status;
 
 }
