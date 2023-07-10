@@ -1,6 +1,6 @@
-package com.autoria.cadastroLegal.service;
+package com.autoria.cadastroLegal.security.service;
 
-import com.autoria.cadastroLegal.dto.UserDTO;
+import com.autoria.cadastroLegal.security.dto.UserDTO;
 import org.springframework.http.HttpHeaders;
 
 import java.util.List;

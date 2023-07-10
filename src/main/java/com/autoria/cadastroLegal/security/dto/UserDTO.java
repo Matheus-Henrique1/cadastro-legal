@@ -1,4 +1,4 @@
-package com.autoria.cadastroLegal.dto;
+package com.autoria.cadastroLegal.security.dto;
 
 import com.autoria.cadastroLegal.utils.Messages;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -28,4 +28,10 @@ public class UserDTO {
     private String cpf;
 
     private boolean status;
+
+    @NotNull(message = Messages.PASSWORD_NULL)
+    private String password;
+
+    @NotNull(message = Messages.LOGIN_NULL)
+    private String login;
 }

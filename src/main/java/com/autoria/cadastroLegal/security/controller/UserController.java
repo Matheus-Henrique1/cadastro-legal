@@ -1,7 +1,7 @@
-package com.autoria.cadastroLegal.controller;
+package com.autoria.cadastroLegal.security.controller;
 
-import com.autoria.cadastroLegal.dto.UserDTO;
-import com.autoria.cadastroLegal.service.UserService;
+import com.autoria.cadastroLegal.security.dto.UserDTO;
+import com.autoria.cadastroLegal.security.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;

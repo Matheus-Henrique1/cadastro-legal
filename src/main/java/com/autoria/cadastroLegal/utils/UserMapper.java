@@ -1,7 +1,7 @@
-package com.autoria.cadastroLegal.mapper;
+package com.autoria.cadastroLegal.utils;
 
-import com.autoria.cadastroLegal.dto.UserDTO;
-import com.autoria.cadastroLegal.entity.User;
+import com.autoria.cadastroLegal.security.entity.User;
+import com.autoria.cadastroLegal.security.dto.UserDTO;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.modelmapper.ModelMapper;
